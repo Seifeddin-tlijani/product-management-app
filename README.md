@@ -33,7 +33,7 @@ A modern web application built with Angular for managing products efficiently. T
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/Seifeddin-tlijani/product-management-app.git
 ```
 
 2. Navigate to the project directory:
