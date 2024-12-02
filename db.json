@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": "3",
+      "name": "Smartphone",
+      "price": 799,
+      "quantity": 1000,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": "4",
+      "name": "Headphones",
+      "price": 199,
+      "quantity": 150,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": "5",
+      "name": "Smartwatch",
+      "price": "249",
+      "quantity": 400,
+      "selected": false,
+      "available": false
+    },
+    {
+      "id": "6",
+      "name": "Tablet",
+      "price": "599",
+      "quantity": 250,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": "7",
+      "name": "Monitor",
+      "price": "179",
+      "quantity": 80,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": "8",
+      "name": "Printer",
+      "price": "349",
+      "quantity": 90,
+      "selected": false,
+      "available": false
+    },
+    {
+      "id": "9",
+      "name": "Keyboard",
+      "price": "49",
+      "quantity": 1200,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": "10",
+      "name": "Mouse",
+      "price": "29",
+      "quantity": 1800,
+      "selected": false,
+      "available": true
+    }
+  ]
+}

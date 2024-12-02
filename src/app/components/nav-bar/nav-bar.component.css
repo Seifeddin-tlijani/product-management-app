@@ -1,0 +1,156 @@
+/* Navbar Styles */
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-brand img {
+  margin-right: 0.5rem;
+}
+
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  opacity: 0.85;
+}
+
+.nav-link i {
+  font-size: 1.1rem;
+}
+
+.nav-link.active {
+  font-weight: 500;
+  color: #fff !important;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Dropdown Styles */
+.dropdown-menu {
+  background-color: var(--bs-dark);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.dropdown-menu .dropdown-item {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.dropdown-menu .dropdown-divider {
+  border-top-color: rgba(255, 255, 255, 0.15);
+}
+
+.dropdown-item i {
+  margin-right: 0.5rem;
+}
+
+/* Active Link */
+.nav-link.active {
+  font-weight: 500;
+}
+
+/* User Profile */
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-item.dropdown .nav-link {
+  padding: 0.25rem;
+}
+
+.nav-item.dropdown img {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  transition: border-color 0.2s ease;
+}
+
+.nav-item.dropdown .nav-link:hover img {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.user-info {
+  padding: 0.5rem 1rem;
+}
+
+.user-name {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.user-email {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Dark Mode */
+:host-context(.dark-mode) {
+  --text-color: rgba(255, 255, 255, 0.85);
+  --bg-color: #343a40;
+}
+
+/* Dark mode styles */
+[data-bs-theme="dark"] .navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.25);
+}
+
+[data-bs-theme="dark"] .dropdown-menu {
+  box-shadow: 0 2px 4px rgba(0,0,0,.25);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem;
+  }
+  
+  .navbar-nav {
+    padding: 0.5rem 0;
+  }
+  
+  .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  
+  .dropdown-menu {
+    margin-top: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .form-control {
+    margin-bottom: 0.5rem;
+  }
+}
