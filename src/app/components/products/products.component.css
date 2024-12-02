@@ -158,3 +158,130 @@
   .search-btn i {
     font-size: 0.9rem;
   }
+
+  /* Responsive Table Styles */
+  .table-responsive {
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Custom table styles */
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-collapse: collapse;
+  }
+
+  .table th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    padding: 12px;
+    font-weight: 600;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .table td {
+    padding: 12px;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+  }
+
+  .table tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.05);
+  }
+
+  /* Action buttons */
+  .action-btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    margin: 0.125rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .action-btn i {
+    font-size: 0.875rem;
+  }
+
+  /* Mobile responsive styles */
+  @media screen and (max-width: 768px) {
+    .table-container {
+      margin: 0 -15px;
+      padding: 0 15px;
+      overflow-x: auto;
+    }
+
+    .table {
+      min-width: 800px; /* Ensure table doesn't shrink too much */
+    }
+
+    .table td, .table th {
+      padding: 8px;
+      font-size: 0.875rem;
+    }
+
+    .action-btn {
+      padding: 0.2rem 0.4rem;
+      font-size: 0.75rem;
+    }
+
+    .action-btn i {
+      font-size: 0.75rem;
+    }
+  }
+
+  /* Loading spinner */
+  .spinner-border {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  /* Search form */
+  .search-group {
+    display: flex;
+    gap: 0.5rem;
+    max-width: 300px;
+  }
+
+  @media screen and (max-width: 576px) {
+    .search-group {
+      max-width: 100%;
+      margin-top: 1rem;
+    }
+    
+    .navbar {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .navbar-nav {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  /* Status indicators */
+  .status-badge {
+    padding: 0.25em 0.6em;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    text-align: center;
+  }
+
+  .status-yes {
+    background-color: #28a745;
+    color: white;
+  }
+
+  .status-no {
+    background-color: #dc3545;
+    color: white;
+  }

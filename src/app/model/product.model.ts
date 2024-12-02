@@ -6,3 +6,11 @@ export interface Product {
   selected: boolean;
   available: boolean;
 }
+
+export interface ProductImage {
+  id: string;
+  url: string;
+  thumbnail: string;
+  isPrimary: boolean;
+  caption?: string;
+}
