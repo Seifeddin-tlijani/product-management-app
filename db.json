@@ -5,7 +5,7 @@
       "name": "Smartphone",
       "price": 800,
       "quantity": 1000,
-      "selected": false,
+      "selected": true,
       "available": true
     },
     {
@@ -13,7 +13,7 @@
       "name": "Headphones",
       "price": 199,
       "quantity": 150,
-      "selected": false,
+      "selected": true,
       "available": true
     },
     {
