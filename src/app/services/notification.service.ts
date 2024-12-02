@@ -45,7 +45,6 @@ export class NotificationService {
     const currentNotifications = this.notifications.getValue();
     const updatedNotifications = [notification, ...currentNotifications];
     
-    // Keep only the last 10 notifications
     if (updatedNotifications.length > 10) {
       updatedNotifications.pop();
     }
@@ -54,7 +53,6 @@ export class NotificationService {
     this.updateNotificationCount();
     this.saveNotifications();
 
-    // Automatically remove success notifications after 5 seconds
     if (type === 'success') {
       setTimeout(() => {
         this.removeNotification(notification.id);
