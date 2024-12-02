@@ -5,7 +5,7 @@
       "name": "Smartphone",
       "price": 800,
       "quantity": 1000,
-      "selected": true,
+      "selected": false,
       "available": true
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "5",
       "name": "Smartwatch",
-      "price": "249",
+      "price": 249,
       "quantity": 400,
       "selected": false,
       "available": false
