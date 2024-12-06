@@ -2,10 +2,10 @@
   "products": [
     {
       "id": "3",
-      "name": "Smartphone",
+      "name": "Smart",
       "price": 800,
       "quantity": 1000,
-      "selected": false,
+      "selected": true,
       "available": true
     },
     {
@@ -22,14 +22,14 @@
       "price": 249,
       "quantity": 400,
       "selected": false,
-      "available": false
+      "available": true
     },
     {
       "id": "6",
       "name": "Tablet",
       "price": "599",
       "quantity": 250,
-      "selected": false,
+      "selected": true,
       "available": true
     },
     {
@@ -37,7 +37,7 @@
       "name": "Monitor",
       "price": "179",
       "quantity": 80,
-      "selected": false,
+      "selected": true,
       "available": true
     },
     {

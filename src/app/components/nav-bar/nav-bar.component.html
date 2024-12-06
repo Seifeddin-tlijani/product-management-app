@@ -1,15 +1,24 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
-    <a class="navbar-brand" href="#">
-        <img src="https://media.ccmbg.com/tc/4881385133/929330/1637230514" alt="Nom de la marque" width="100" height="60">
-    </a>
-    <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active">
-                <h1>Gestion des Produits</h1>
-            </a>
-        </li>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="https://media.ccmbg.com/tc/4881385133/929330/1637230514" alt="Nom de la marque" width="100" height="60">
         </a>
-    </ul>
+        
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item me-4">
+                <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active">
+                    <h1 class="mb-0">Gestion des Produits</h1>
+                </a>
+            </li>
+            <li class="nav-item ms-4">
+                <a class="nav-link dashboard-link" [routerLink]="['/dashboard']" routerLinkActive="active">
+                    <i class="fas fa-chart-bar"></i> Dashboard
+                </a>
+            </li>
+        </ul>
+
+        <a class="navbar-brand" href="#">
+            <img src="https://media.ccmbg.com/tc/4881385133/929330/1637230514" alt="Nom de la marque" width="100" height="60">
+        </a>
+    </div>
 </nav>

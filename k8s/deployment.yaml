@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: product-management
-        image: product-management:latest
+        image: seifeddin86/product-management:latest
         ports:
         - containerPort: 80
         resources:

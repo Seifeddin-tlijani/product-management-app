@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-sm bg-light navbar-light mb-4">
+  <div class="container">
+    <div class="dashboard-header">
+      <button class="btn btn-primary btn-lg dashboard-btn">
+        <i class="fas fa-chart-line me-2"></i>
+        Product Analytics Dashboard
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mb-4 chart-card">
+        <div class="card-header bg-primary text-white">
+          <i class="fas fa-chart-pie me-2"></i>
+          Product Status
+        </div>
+        <div class="card-body">
+          <canvas #productStatusChart></canvas>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-6">
+      <div class="card mb-4 chart-card">
+        <div class="card-header bg-primary text-white">
+          <i class="fas fa-boxes me-2"></i>
+          Stock Levels
+        </div>
+        <div class="card-body">
+          <canvas #stockLevelChart></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mb-4 chart-card">
+        <div class="card-header bg-primary text-white">
+          <i class="fas fa-dollar-sign me-2"></i>
+          Price Distribution
+        </div>
+        <div class="card-body">
+          <canvas #priceRangeChart></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card mb-4 chart-card">
+        <div class="card-header bg-primary text-white">
+          <i class="fas fa-check-circle me-2"></i>
+          Product Availability
+        </div>
+        <div class="card-body">
+          <canvas #availabilityChart></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
